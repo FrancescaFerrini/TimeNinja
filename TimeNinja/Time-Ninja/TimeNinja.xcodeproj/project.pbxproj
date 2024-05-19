@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2704DAF82AEAE3BC00A43E75 /* ModalView in Frameworks */ = {isa = PBXBuildFile; productRef = 2704DAF72AEAE3BC00A43E75 /* ModalView */; };
+		272DC7162AE1DF980080EA62 /* ActivitySelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272DC7152AE1DF980080EA62 /* ActivitySelectedView.swift */; };
+		27B36D1B2AE95D93001EC9E2 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B36D1A2AE95D93001EC9E2 /* CalendarView.swift */; };
+		4314EE732AE2CCE300CB431C /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4314EE722AE2CCE300CB431C /* SpeechRecognizer.swift */; };
+		AE49B53A2AE1F3DF00572145 /* TimeNinjaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49B5392AE1F3DF00572145 /* TimeNinjaApp.swift */; };
+		AE49B53C2AE1F3DF00572145 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49B53B2AE1F3DF00572145 /* ContentView.swift */; };
+		AE49B53E2AE1F3E200572145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE49B53D2AE1F3E200572145 /* Assets.xcassets */; };
+		AE49B5412AE1F3E200572145 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE49B5402AE1F3E200572145 /* Preview Assets.xcassets */; };
+		AE49B54A2AE1FBE800572145 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49B5492AE1FBE800572145 /* MainScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		272DC7152AE1DF980080EA62 /* ActivitySelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySelectedView.swift; sourceTree = "<group>"; };
+		27B36D1A2AE95D93001EC9E2 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		4314EE712AE2C08C00CB431C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4314EE722AE2CCE300CB431C /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		AE49B5362AE1F3DF00572145 /* TimeNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE49B5392AE1F3DF00572145 /* TimeNinjaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeNinjaApp.swift; sourceTree = "<group>"; };
+		AE49B53B2AE1F3DF00572145 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE49B53D2AE1F3E200572145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE49B5402AE1F3E200572145 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE49B5492AE1FBE800572145 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE49B5332AE1F3DF00572145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2704DAF82AEAE3BC00A43E75 /* ModalView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE49B52D2AE1F3DF00572145 = {
+			isa = PBXGroup;
+			children = (
+				AE49B5382AE1F3DF00572145 /* TimeNinja */,
+				AE49B5372AE1F3DF00572145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE49B5372AE1F3DF00572145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE49B5362AE1F3DF00572145 /* TimeNinja.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE49B5382AE1F3DF00572145 /* TimeNinja */ = {
+			isa = PBXGroup;
+			children = (
+				4314EE712AE2C08C00CB431C /* Info.plist */,
+				4314EE722AE2CCE300CB431C /* SpeechRecognizer.swift */,
+				AE49B5392AE1F3DF00572145 /* TimeNinjaApp.swift */,
+				AE49B53B2AE1F3DF00572145 /* ContentView.swift */,
+				AE49B53D2AE1F3E200572145 /* Assets.xcassets */,
+				AE49B53F2AE1F3E200572145 /* Preview Content */,
+				AE49B5492AE1FBE800572145 /* MainScreenView.swift */,
+				272DC7152AE1DF980080EA62 /* ActivitySelectedView.swift */,
+				27B36D1A2AE95D93001EC9E2 /* CalendarView.swift */,
+			);
+			path = TimeNinja;
+			sourceTree = "<group>";
+		};
+		AE49B53F2AE1F3E200572145 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE49B5402AE1F3E200572145 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE49B5352AE1F3DF00572145 /* TimeNinja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE49B5442AE1F3E200572145 /* Build configuration list for PBXNativeTarget "TimeNinja" */;
+			buildPhases = (
+				AE49B5322AE1F3DF00572145 /* Sources */,
+				AE49B5332AE1F3DF00572145 /* Frameworks */,
+				AE49B5342AE1F3DF00572145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeNinja;
+			packageProductDependencies = (
+				2704DAF72AEAE3BC00A43E75 /* ModalView */,
+			);
+			productName = TimeNinja;
+			productReference = AE49B5362AE1F3DF00572145 /* TimeNinja.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE49B52E2AE1F3DF00572145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AE49B5352AE1F3DF00572145 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AE49B5312AE1F3DF00572145 /* Build configuration list for PBXProject "TimeNinja" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE49B52D2AE1F3DF00572145;
+			packageReferences = (
+				2704DAF62AEAE3BC00A43E75 /* XCLocalSwiftPackageReference "../../../Downloads/modal-view-void" */,
+			);
+			productRefGroup = AE49B5372AE1F3DF00572145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE49B5352AE1F3DF00572145 /* TimeNinja */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE49B5342AE1F3DF00572145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE49B5412AE1F3E200572145 /* Preview Assets.xcassets in Resources */,
+				AE49B53E2AE1F3E200572145 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE49B5322AE1F3DF00572145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4314EE732AE2CCE300CB431C /* SpeechRecognizer.swift in Sources */,
+				AE49B53C2AE1F3DF00572145 /* ContentView.swift in Sources */,
+				27B36D1B2AE95D93001EC9E2 /* CalendarView.swift in Sources */,
+				AE49B54A2AE1FBE800572145 /* MainScreenView.swift in Sources */,
+				AE49B53A2AE1F3DF00572145 /* TimeNinjaApp.swift in Sources */,
+				272DC7162AE1DF980080EA62 /* ActivitySelectedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AE49B5422AE1F3E200572145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE49B5432AE1F3E200572145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE49B5452AE1F3E200572145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeNinja/Preview Content\"";
+				DEVELOPMENT_TEAM = Z4SW228TF7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeNinja/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "ou can view a text transcription of your meeting in the app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FrancescaFerrini.TimeNinja;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE49B5462AE1F3E200572145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeNinja/Preview Content\"";
+				DEVELOPMENT_TEAM = Z4SW228TF7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeNinja/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "ou can view a text transcription of your meeting in the app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FrancescaFerrini.TimeNinja;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE49B5312AE1F3DF00572145 /* Build configuration list for PBXProject "TimeNinja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE49B5422AE1F3E200572145 /* Debug */,
+				AE49B5432AE1F3E200572145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE49B5442AE1F3E200572145 /* Build configuration list for PBXNativeTarget "TimeNinja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE49B5452AE1F3E200572145 /* Debug */,
+				AE49B5462AE1F3E200572145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2704DAF62AEAE3BC00A43E75 /* XCLocalSwiftPackageReference "../../../Downloads/modal-view-void" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../Downloads/modal-view-void";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2704DAF72AEAE3BC00A43E75 /* ModalView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModalView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AE49B52E2AE1F3DF00572145 /* Project object */;
+}
